@@ -1,0 +1,157 @@
+html,body,p,i,div,figure{
+	margin:0;
+	padding:0;
+}
+img{
+	display: block;
+}
+html{
+	font-size:26.55vw;
+	height:100%;
+}
+body{
+	font-size:.14rem;
+}
+header{
+	background:#36393d;
+	color:#fff;
+	height:.6rem;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 .12rem;
+}
+header p:nth-child(1){
+	height:100%;
+	display: flex;
+	align-items: center;
+}
+header p:nth-child(1) i{
+	font-size:.35rem;
+}
+header p:nth-child(1) span{
+	font-size:.14rem;
+}
+header p:nth-child(2){
+	font-size:.25rem;
+}
+header p:nth-child(3){
+	font-size:.4rem;
+	margin-right:.12rem;
+}
+nav{
+	width:100%;
+	height:2.1rem;
+	background:url(../img/nav1.jpg) center no-repeat;
+	background-size:100% 100%;
+	position: relative;
+}
+nav div{
+	position: absolute;
+	bottom:.16rem;
+	right:.15rem;
+	display: flex;
+	align-items: center;
+}
+nav span{
+	font-size:.16rem;
+	color:#fff;
+	padding-right:.12rem;
+}
+nav img{
+	width:.48rem;
+	height:.48rem;
+}
+nav p{
+	width:.1rem;
+	height:.1rem;
+	background:red;
+	border-radius: .05rem;
+	position: absolute;
+	right: -.04rem;
+    top: -.04rem;
+}
+section>div{
+	height:auto;
+	display: flex;
+	padding:.16rem;
+	border-bottom:.01rem solid #f4f4f4;
+}
+section div .left img{
+	width:.4rem;
+	height:.4rem;
+	border-radius:.04rem;
+	margin-right:.08rem;
+}
+section .right>p:nth-child(1){
+	font-size:.15rem;
+	color:#41454D;
+	font-weight:bold;
+}
+section .right>p:nth-child(2){
+	font-size:.14rem;
+	color:#41454D;
+	margin-top:.02rem;
+	margin-bottom:.06rem;
+}
+section .right>p:nth-child(3){
+	display: flex;
+	height:.52rem;
+	align-items: center;
+	background:#f7f7f7;
+}
+section .right>p:nth-child(3) img{
+	width:.4rem;
+	height:.4rem;
+	margin-right:.06rem;
+}
+section .right p:nth-child(3) span{
+	font-size:.13rem;
+	color:#41454D;
+}
+section .comment{
+	display: flex;
+	margin-top: .12rem;	
+}
+section .comment i{
+	font-size:.17rem;
+}
+section .comment i,section .comment span{
+	color:#80858C;
+}
+section .comment span{
+	font-size:.12rem;
+	margin-right:.4rem;
+}
+/*section .comment>p:nth-child(1){
+	margin-right:.4rem;
+}*/
+section .time{
+	font-size:.12rem;
+	color:#ACB1B7;
+	margin-top:.12rem;
+}
+section .reply{
+	margin-top:.08rem;
+}
+section .reply p span{
+	font-size:.14rem;   
+	margin-bottom: .04rem;
+}
+section .reply p span:nth-child(1){	
+	color:#5BAFFF;
+}
+section .reply p>span:nth-child(2){
+	color:#41454D;
+}
+section .reply p span:nth-child(3){
+	color:#5BAFFF;
+}
+section .look-review{
+	display: flex;
+	align-items: center;
+	margin:.08rem;		
+}
+section .reply p.look-review span{
+	color:#41454D;
+}
