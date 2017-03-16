@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1489672274039'); /* IE9*/
-  src: url('iconfont.eot?t=1489672274039#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1489672274039') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1489672274039') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1489672274039#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1489679963421'); /* IE9*/
+  src: url('iconfont.eot?t=1489679963421#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1489679963421') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1489679963421') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1489679963421#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -24,6 +24,8 @@
 .icon-liaotian:before { content: "\e6ac"; }
 
 .icon-jiankuohaoxixia:before { content: "\e6c8"; }
+
+.icon-jiankuohaoxishang:before { content: "\e6c9"; }
 
 .icon-zuobiankuohao:before { content: "\e630"; }
 

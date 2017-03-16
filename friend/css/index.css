@@ -15,11 +15,10 @@ body{
 header{
 	background:#36393d;
 	color:#fff;
-	height:.57.6rem;	
+	height:.58rem;	
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding:0 .12rem;
 }
 header p:nth-child(1){
 	height:100%;
@@ -154,4 +153,7 @@ section .look-review{
 }
 section .reply p.look-review span{
 	color:#41454D;
+}
+section .hide-review{
+	display: none;
 }

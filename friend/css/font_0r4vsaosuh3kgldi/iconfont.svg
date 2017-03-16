@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Thu Mar 16 21:51:13 2017
+Created by FontForge 20120731 at Thu Mar 16 23:59:23 2017
  By admin
 </metadata>
 <defs>
@@ -52,6 +52,8 @@ t52.5 159t-52.5 158t-143.5 118t-196.5 44.5t-194.5 -44t-139.5 -118t-50.5 -159q0 -
 t-37.5 15t-37.5 -15t-15.5 -37v0zM680 405q0 -22 15.5 -37.5t37.5 -15.5t37 15.5t15 37.5t-15 37t-37 15t-37.5 -15t-15.5 -37v0z" />
     <glyph glyph-name="jiankuohaoxixia" unicode="&#xe6c8;" 
 d="M478 252q19 -20 45 -20t44 21l270 309q6 7 5.5 15.5t-7 14.5t-15.5 5.5t-15 -7.5l-270 -309q-13 -14 -25 -1l-281 310q-6 7 -14.5 7.5t-15.5 -5.5t-7 -15t6 -15z" />
+    <glyph glyph-name="jiankuohaoxishang" unicode="&#xe6c9;" 
+d="M510 509q12 14 25 0l270 -310q6 -6 15 -7t15.5 5t7 15t-5.5 15l-270 310q-18 20 -44 20.5t-45 -20.5l-280 -309q-6 -7 -6 -16t7 -14.5t15.5 -5.5t14.5 7z" />
     <glyph glyph-name="zuobiankuohao" unicode="&#xe630;" 
 d="M736 11q6 -6 6.5 -14.5t-5.5 -15t-14.5 -6.5t-13.5 6l-421 385q-6 6 -6.5 14.5t5.5 14.5l407 392q6 6 14.5 6t14.5 -6q5 -7 5 -15t-6 -14l-390 -377z" />
   </font>
