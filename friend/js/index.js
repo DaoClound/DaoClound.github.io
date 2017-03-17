@@ -13,7 +13,7 @@ $(function () {
 			onOff = !onOff;
 		});
 	});	
-	$('section .comment p:eq(0) i').on("touchstart",function () {
+	$('section .comment p:nth-child(1) i').on("touchstart",function () {
 		if(onOff){
 			heartNum++;
 			$(this).css('background','#5bafff');
