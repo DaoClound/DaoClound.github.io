@@ -10,13 +10,12 @@ $(function () {
 		}
 		onOff = !onOff;		
 	});	
-	$("section .comment").find("p:eq(0) i").each(function(){
-		$(this).flag=true;	
-		alert($(this).flag);
+	$("section .comment").find("p:eq(0) i").each(function(i,ele){
+		ele.flag=true;	
 	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
 		var heartNum=parseInt($(this).next("span").html());	
-		if($(this).flag){
+		if($(this)[0].flag){
 			heartNum++;
 			$(this).css('background','#5bafff');
 			$(this).next("span").html(heartNum);
@@ -25,7 +24,7 @@ $(function () {
 			$(this).css('background','#fff');
 			$(this).next("span").html(heartNum);
 		}
-		$(this).flag = !$(this).flag;			
+		$(this)[0].flag = !$(this)[0].flag;			
 	})
 });
 
