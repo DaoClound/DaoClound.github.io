@@ -10,10 +10,12 @@ $(function () {
 		}
 		onOff = !onOff;		
 	});	
-	$("section .comment").find("p:eq(0) i").each(function(){
+	$("section .comment").find("p:eq(0) i").each(function(i,ele){
 		$(this).flag=true;	
+		console.log(ele);
 	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
+		console.log($(this).flag);
 		var heartNum=parseInt($(this).next("span").html());	
 		if($(this).flag){
 			heartNum++;
