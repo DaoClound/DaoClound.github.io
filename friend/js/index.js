@@ -11,7 +11,7 @@ $(function () {
 		onOff = !onOff;		
 	});	
 	$("section .comment").find("p:eq(0) i").each(function(i,ele){
-		$(this)[0].flag=true;	
+		$(this)[0].flag=1;	
 		alert($(this)[0].flag);
 	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
