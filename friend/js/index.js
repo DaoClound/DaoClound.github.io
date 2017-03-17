@@ -17,11 +17,11 @@ $(function () {
 		if(onOff){
 			heartNum++;
 			$(this).css('background','#5bafff');
-			$('section .comment p:eq(0) span').html(heartNum);
+			$(this).next("span").html(heartNum);
 		}else{
 			heartNum--;
 			$(this).css('background','#fff');
-			$('section .comment p:eq(0) span').html(heartNum);
+			$(this).next("span").html(heartNum);
 		}
 		onOff = !onOff;			
 	})
