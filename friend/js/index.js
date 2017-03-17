@@ -12,9 +12,10 @@ $(function () {
 			onOff = !onOff;
 		});
 	});	
-	$('section .comment p:nth-child(1) i').on("touchstart",function () {
+	$("section .comment p").eq(0).find("i").on("touchstart",function () {
 		var heartNum=parseInt($(this).next("span").html());
 		if(onOff){
+			console.log($(this).next("span").length);
 			heartNum++;
 			$(this).css('background','#5bafff');
 			$(this).next("span").html(heartNum);
