@@ -15,7 +15,7 @@ $(function () {
 		console.log(ele);
 	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
-		console.log($(this).flag);
+		console.log(1);
 		var heartNum=parseInt($(this).next("span").html());	
 		if($(this).flag){
 			heartNum++;
