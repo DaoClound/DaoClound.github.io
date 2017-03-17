@@ -1,6 +1,6 @@
 $(function () {
 	var onOff = true;
-	var heartnum = $('section .comment p:eq(0) span').html();
+	var heartNum = parseInt($('section .comment p:eq(0) span').html());
 	$("section .look-review i").on("touchstart",function(){
 		$(this).addClass(function () {
 			if(onOff){
@@ -15,11 +15,13 @@ $(function () {
 	});	
 	$('section .comment p:eq(0) i').on("touchstart",function () {
 		if(onOff){
+			heartNum++;
 			$(this).css('background','#5bafff');
-			heartnum++;
+			$('section .comment p:eq(0) span').html(heartNum);
 		}else{
+			heartNum--;
 			$(this).css('background','#fff');
-			heartnum--;
+			$('section .comment p:eq(0) span').html(heartNum);
 		}
 		onOff = !onOff;			
 	})
