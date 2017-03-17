@@ -10,9 +10,9 @@ $(function () {
 		}
 		onOff = !onOff;		
 	});	
-	$("section .comment").find("p:eq(0) i").each(function(i,ele){
+	$("section .comment").find("p:eq(0) i").each(function(){
 		$(this).flag=true;	
-		console.log(ele);
+		alert($(this).flag);
 	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
 		console.log(1);
