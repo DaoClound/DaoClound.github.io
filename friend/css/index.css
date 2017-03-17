@@ -76,11 +76,13 @@ section>div{
 	padding:.16rem;
 	border-bottom:.01rem solid #f4f4f4;
 }
+section div .left{
+	margin-right:.08rem;
+}
 section div .left img{
 	width:.4rem;
 	height:.4rem;
-	border-radius:.04rem;
-	margin-right:.08rem;
+	border-radius:.04rem;	
 }
 section .right>p:nth-child(1){
 	font-size:.15rem;
