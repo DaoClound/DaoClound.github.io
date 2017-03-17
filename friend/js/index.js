@@ -11,7 +11,7 @@ $(function () {
 		}
 		onOff = !onOff;		
 	});	
-	console.log($("section .comment p").eq(0).find("i").length);
+	console.log($("section .comment p").eq(0).length);
 	$("section .comment p").eq(0).find("i").on("touchstart",function () {
 		var heartNum=parseInt($(this).next("span").html());
 		if(flag){
