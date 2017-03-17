@@ -10,13 +10,13 @@ $(function () {
 		}
 		onOff = !onOff;		
 	});	
-	$("section .comment").find("p:eq(0) i").each(function(i,ele){
-		$(this)[0].flag=true;	
-		alert($(this)[0].flag);
+	$("section .comment").find("p:eq(0) i").each(function(){
+		$(this).flag=true;	
+		alert($(this).flag);
 	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
 		var heartNum=parseInt($(this).next("span").html());	
-		if($(this)[0].flag){
+		if($(this).flag){
 			heartNum++;
 			$(this).css('background','#5bafff');
 			$(this).next("span").html(heartNum);
@@ -25,7 +25,7 @@ $(function () {
 			$(this).css('background','#fff');
 			$(this).next("span").html(heartNum);
 		}
-		$(this)[0].flag = !$(this)[0].flag;			
+		$(this).flag = !$(this).flag;			
 	})
 });
 
