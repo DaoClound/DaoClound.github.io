@@ -15,9 +15,8 @@ $(function () {
 		alert($(this)[0].flag);
 	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
-		console.log(1);
 		var heartNum=parseInt($(this).next("span").html());	
-		if($(this).flag){
+		if($(this)[0].flag){
 			heartNum++;
 			$(this).css('background','#5bafff');
 			$(this).next("span").html(heartNum);
@@ -26,7 +25,7 @@ $(function () {
 			$(this).css('background','#fff');
 			$(this).next("span").html(heartNum);
 		}
-		$(this).flag = !$(this).flag;			
+		$(this)[0].flag = !$(this)[0].flag;			
 	})
 });
 
