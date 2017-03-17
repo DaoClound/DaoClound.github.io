@@ -1,6 +1,5 @@
 $(function () {
 	var onOff = true;
-	var flag=true;
 	$("section .look-review i").on("touchstart",function(){	
 		if(onOff){
 			$(this).addClass('iconfont icon-jiankuohaoxishang');
@@ -11,10 +10,12 @@ $(function () {
 		}
 		onOff = !onOff;		
 	});	
-	console.log($("section .comment").length);
+	$("section .comment").find("p:eq(0) i").each(function(){
+		$(this).flag=true;	
+	});
 	$("section .comment").find("p:eq(0) i").on("touchstart",function () {
-		var heartNum=parseInt($(this).next("span").html());
-		if(flag){
+		var heartNum=parseInt($(this).next("span").html());	
+		if($(this).flag){
 			heartNum++;
 			$(this).css('background','#5bafff');
 			$(this).next("span").html(heartNum);
@@ -23,7 +24,7 @@ $(function () {
 			$(this).css('background','#fff');
 			$(this).next("span").html(heartNum);
 		}
-		flag = !flag;			
+		$(this).flag = !$(this).flag;			
 	})
 });
 
